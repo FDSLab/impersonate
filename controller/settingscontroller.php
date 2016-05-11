@@ -33,6 +33,7 @@ class SettingsController extends Controller {
 
 	/**
 	 * become another user
+	 * @NoCSRFRequired
 	 * @UseSession
 	 */
 	public function impersonate($userid) {
